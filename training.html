@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(./images/pattern-background-desktop.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: #F2F2F2;
+        }
+
+        .main {
+            width: 450px;
+            height: 697px;
+            border-radius: 20px;
+            background-color: white;
+            margin-top: 120px;
+            margin-left: 495px;
+            overflow: hidden;
+        }
+
+        .main-img {
+            max-width: 100%;
+        }
+
+        .main-h {
+            text-align: center;
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 28px;
+            line-height: 37px;
+            color: #1F2E55;
+            margin-top: 29px;
+        }
+
+        .main-p {
+            text-align: center;
+            color: #717FA6;
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            line-height: 26px;
+            font-size: 16;
+            font-weight: 500;
+            margin: 23px 48px 0px 48px;
+        }
+
+        .inside-div {
+            width: 345px;
+            height: 98px;
+            border-radius: 11px;
+            background-color: #F7F9FF;
+            margin: 30px 48px 0px 48px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .noti {}
+
+        .annual {
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 16px;
+            line-height: 21px;
+            color: #1F2E55;
+            ;
+        }
+
+        .number {
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #717FA6;
+            margin-top: 6px;
+        }
+
+        .change-link {
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            color: #382AE1;
+        }
+
+        .main-button {
+            width: 354px;
+            height: 50px;
+            border-radius: 11px;
+            background-color: #382AE1;
+            margin: 32px 48px 0px 48px;
+            border: 0;
+            box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+        }
+
+        .button-link {
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 15px;
+            line-height: 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .cancel {
+            font-family: 'Red Hat Display';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 15px;
+            line-height: 20px;
+            color: #717FA6;
+            margin: top 80px;
+            text-decoration: none;
+        }
+
+        .footer {
+            margin-top: 32px;
+            margin-left: 176px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--here starts main-div-->
+    <div class="main">
+        <img class="main-img" src="./images/illustration-hero.svg" alt="hero">
+        <h1 class="main-h">Order Summary</h1>
+        <p class="main-p">You can now listen to millions of songs, audiobooks,<br> and podcasts on any device <br>anywhere you
+            like!</p>
+        <div class="inside-div">
+            <div class="noti-pic"><img class="noti" src="./images/Path (4).png" alt="noti"></div>
+            <div class="p">
+                <p class="annual">Annual Plan</p>
+                <p class="number">$59.99/year</p>
+            </div>
+            <a class="change-link" href="#">Change</a>
+        </div>
+        <button class="main-button"><a class="button-link" href="#">Proceed to Payment</a></button>
+        <div class="footer">
+            <a class="cancel" href="#">Cancel Order</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
